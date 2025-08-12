@@ -1,7 +1,15 @@
-var age = 14;
-var maxAge = 100;
-var numPerday = 100
+var age = window.prompt("Age", "0");
+var maxAge = window.prompt("Max age", "0");
+var numPerday = window.prompt("NumPerDay", "0");
+var confirmation = window.confirm("Is your input correct");
 
-var totalRequired = (numPerDay * 365) * (maxAge - age);
+var totalRequired = (numPerday * 365) * (maxAge - age);
+var confirmation = window.confirm("is ts correct gang");
+if (confirmation == true){
 
-document.write('You will need ' + totalRequired + ' raymond ashly c calitis to last you untill he ripe old age of ' + maxAge + ', you stupid nigger')
+document.write(`you need ${totalRequired} snacks to last until u die at ${maxAge} ig`);
+
+} else {
+window.alert("run it back");
+
+}
